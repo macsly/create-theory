@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Car from "./Car/Car";
+import Car from './Car/Car'
 
 class App extends Component {
     render() {
@@ -10,10 +10,11 @@ class App extends Component {
 
         return (
             <div style={divStyle}>
-                <h1 style={{color: 'blue', fontSize: '20px'}}>Hello world!</h1>
+                <h1>Hello world!</h1>
+
+                <Car />
             </div>
         );
-        <Car />
     }
 }
 

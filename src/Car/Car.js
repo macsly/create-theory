@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
- /*function car() {
-   return (
-     <div>This is car component</div>
-   )
- }*/
+// function car() {
+//   return (
+//     <div>This is car component</div>
+//   )
+// }
 
 // const car = () => {
 //   return (
@@ -19,12 +19,9 @@ import React from 'react';
 //   </div>
 // )
 
-
 export default () => (
     <div>
         This is car component
         <strong>test</strong>
     </div>
 )
-
-
