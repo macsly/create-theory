@@ -43,7 +43,7 @@ class App extends Component {
       textAlign: 'center'
     }
 
-    let cars = null
+    let cars = null;
 
     if (this.state.showCars) {
       cars = this.state.cars.map((car, index) => {
