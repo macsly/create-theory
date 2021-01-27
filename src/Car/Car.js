@@ -1,5 +1,4 @@
 import React from 'react'
-import Radium from 'radium'
 import './Car.scss'
 
 class Car extends React.Component {
@@ -42,4 +41,4 @@ class Car extends React.Component {
   }
 }
 
-export default Radium(Car)
+export default Car
