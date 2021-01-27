@@ -42,7 +42,7 @@ class App extends Component {
     const divStyle = {
       textAlign: 'center'
     }
-
+    //  пустая переменная
     let cars = null;
 
     if (this.state.showCars) {
